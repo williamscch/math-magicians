@@ -3,10 +3,9 @@ import './Calculator.css';
 
 // eslint-disable-next-line react/prefer-stateless-function
 class CalculatorDisplay extends React.Component {
-  // eslint-disable-next-line no-useless-constructor
-  constructor(props) {
-    super(props);
-  }
+//   constructor(props) {
+//     super(props);
+//   }
 
   render() {
     return (
