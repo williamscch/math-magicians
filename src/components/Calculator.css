@@ -1,43 +1,44 @@
 .calculatorContainer {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .calculator {
-    min-height: 50vh;
-    width: 40%;
-    display: grid;
-    border: 2px solid black;
-    text-align: center;
-    grid-template-rows: 16.6% 16.6% 16.6% 16.6% 16.6%;
+  min-height: 50vh;
+  width: 40%;
+  display: grid;
+  border: 2px solid black;
+  text-align: center;
+  grid-template-rows: 16.6% 16.6% 16.6% 16.6% 16.6%;
 }
 
 .showNumbers {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    background-color: gainsboro;
-    margin: 0;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-color: gainsboro;
+  margin: 0;
 }
 
 .line {
-    width: 100%;
-    display: grid;
+  width: 100%;
+  display: grid;
 }
 
-.line1, .line2, .line3, .line4 {
-    grid-template-columns: 25% 25% 25% 25%;
+.line1,
+.line2,
+.line3,
+.line4 {
+  grid-template-columns: 25% 25% 25% 25%;
 }
 
 .line5 {
-    grid-template-columns: 50% 25% 25%;
+  grid-template-columns: 50% 25% 25%;
 }
 
 .operator {
-    background-color: orange;
+  background-color: orange;
 }
-
-
