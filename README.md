@@ -1,56 +1,25 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Math Magicians(Calculator)
 
-> Description the project.
+> In this project I build a calculator Web App using React stateful components.
 
+## Built With React
 
-## Built With
+## Live Demo
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+[Calculator Link... Check it out!!!](https://wdavidcch.github.io/math-magicians/dist/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To get a local copy up and running follow the next steps: -Copy the SSH key of the repository and make a 'git clone' in your terminal using the copied key, and install all the dependencies running NPM INSTALL, then you will be able to deploy this project locally.
 
+## 👤 Author
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@wdavidcch](https://github.com/wdavidcch)
+- Twitter: [@wdavidcch](https://twitter.com/wdavidcch)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/williams-colmenares-989a6b151)
 
 ## 🤝 Contributing
 
@@ -64,9 +33,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse Module 3 React.
+- Project indications [here](https://github.com/microverseinc/curriculum-react-redux/blob/main/math-magicians/sneak_peek.md)
+- The logic of the calculator was taken from [here](https://github.com/microverseinc/curriculum-react-redux/blob/main/math-magicians/project_events.md)
 
 ## 📝 License
 
