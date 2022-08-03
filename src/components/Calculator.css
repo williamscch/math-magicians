@@ -1,16 +1,24 @@
 .calculatorContainer {
-  background-color: #282c34;
+  background-color: black;
+  color: white;
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+button {
+  background-color: black;
+  color: white;
+  text-shadow: 1px 1px black;
+  font-size: 1.5rem;
+}
+
 .calculator {
   min-height: 50vh;
   width: 40%;
   display: grid;
-  border: 2px solid black;
+  border: 3px solid orange;
   text-align: center;
   grid-template-rows: 16.6% 16.6% 16.6% 16.6% 16.6%;
 }
@@ -19,8 +27,9 @@
   display: flex;
   justify-content: end;
   align-items: center;
-  background-color: gainsboro;
   margin: 0;
+  padding: 0 1rem;
+  border: 1px solid black;
 }
 
 .line {
