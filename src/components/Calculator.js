@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './Calculator.css';
 import calculate from '../logic/calculate';
 
 const CalculatorDisplay = () => {
@@ -17,6 +16,7 @@ const CalculatorDisplay = () => {
   const { total, next } = state;
   return (
     <div className="calculatorContainer">
+      <h1>Let`s do some Math!</h1>
       <div className="calculator">
         <h2 className="showNumbers">{next || total}</h2>
         <div className="line line1">
