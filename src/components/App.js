@@ -4,6 +4,7 @@ import CalculatorDisplay from './Calculator';
 import HomePage from './HomePage';
 import Nav from './Nav';
 import Quote from './Quote';
+import './App.css';
 
 // eslint-disable-next-line react/prefer-stateless-function
 class App extends React.Component {

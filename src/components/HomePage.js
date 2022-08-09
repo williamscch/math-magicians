@@ -1,9 +1,17 @@
 import React from 'react';
 
 const HomePage = () => (
-  <div>
-    <h1>Welcome to our Page!</h1>
-    <p>
+  <div style={{
+    display: 'flex',
+    flexDirection: 'column',
+    alignContent: 'center',
+    gap: '2rem',
+    justifyContent: 'center',
+    minHeight: '60vh',
+  }}
+  >
+    <h1 style={{ textAlign: 'center', fontSize: '2.5rem' }}>Welcome to our Page!</h1>
+    <p style={{ padding: '0 8rem', fontSize: '1.5rem' }}>
       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
       Lorem Ipsum has been the industry&apos;s standard dummy text ever since the
       1500s, when an unknown printer took a galley of type and scrambled it to
@@ -14,7 +22,7 @@ const HomePage = () => (
       publishing software like Aldus PageMaker including versions of Lorem
       Ipsum.
     </p>
-    <p>
+    <p style={{ padding: '0 8rem', fontSize: '1.5rem' }}>
       Contrary to popular belief, Lorem Ipsum is not simply random text. It has
       roots in a piece of classical Latin literature from 45 BC, making it over
       2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney

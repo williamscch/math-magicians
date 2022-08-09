@@ -1,10 +1,26 @@
-.calculatorContainer {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.4;
+  color: #444;
+  background: #fff;
+  height: 100vh;
   background-color: black;
+  color: white;
+}
+
+.calculatorContainer {
   color: white;
   min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  width: 100%;
 }
 
 button {
@@ -15,7 +31,8 @@ button {
 }
 
 .calculator {
-  min-height: 50vh;
+  min-height: 60vh;
+  border-radius: 5px;
   width: 40%;
   display: grid;
   border: 3px solid orange;
@@ -50,4 +67,23 @@ button {
 
 .operator {
   background-color: orange;
+}
+
+nav ul li {
+  color: white;
+  text-decoration: none;
+}
+
+.link {
+  color: white;
+}
+
+@media (max-width: 760px) {
+  .calculatorContainer {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .calculator {
+    width: 80%;
+  }
 }

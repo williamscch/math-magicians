@@ -2,12 +2,23 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Nav = () => (
-  <nav>
+  <nav style={{
+    display: 'flex',
+    justifyContent: 'space-around',
+    padding: '1rem',
+  }}
+  >
     <h1>Math Magicians</h1>
-    <ul>
-      <li><Link to="/">Home</Link></li>
-      <li><Link to="/calculator">Calculator</Link></li>
-      <li><Link to="/quote">Quote</Link></li>
+    <ul style={{
+      display: 'flex',
+      listStyle: 'none',
+      gap: '2rem',
+      alignItems: 'center',
+    }}
+    >
+      <li><Link className="link" to="/">Home</Link></li>
+      <li><Link className="link" to="/calculator">Calculator</Link></li>
+      <li><Link className="link" to="/quote">Quote</Link></li>
     </ul>
   </nav>
 );
