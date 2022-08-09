@@ -7,8 +7,6 @@
 body {
   font-family: "Segoe UI", Arial, sans-serif;
   line-height: 1.4;
-  color: #444;
-  background: #fff;
   height: 100vh;
   background-color: black;
   color: white;
@@ -83,6 +81,7 @@ nav ul li {
     flex-direction: column;
     justify-content: center;
   }
+
   .calculator {
     width: 80%;
   }
