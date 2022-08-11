@@ -8,7 +8,7 @@
 
 ## Live Demo
 
-[Calculator Link... Check it out!!!](https://williamscch.github.io/math-magicians/dist/)
+[Calculator Link... Check it out!!!](https://williamscch.github.io/math-magicians/)
 
 
 ## Getting Started
