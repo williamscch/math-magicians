@@ -6,9 +6,9 @@
 
 ## Built With React
 
-## Live Demo
+## Live Demo Deployed with Netlify
 
-[Calculator Link... Check it out!!!](https://williamscch.github.io/math-magicians/build/)
+[Calculator Link... Check it out!!!](https://williamscchmathmagicians.netlify.app/)
 
 
 ## Getting Started
