@@ -46,3 +46,22 @@ describe('Calculator page testing', () => {
     expect(showNumbers.innerHTML).toBe('26');
   });
 });
+
+describe('calculator testing using snapshots', () => {
+  it('Test calc', () => {
+    const tree = render(<Calculator />);
+    expect(tree).toMatchSnapshot();
+  });
+});
+
+describe('calculator testing using snapshots', () => {
+  it('Test 3 add 4 should be 7', () => {
+    render(<Calculator />);
+    const result = document.querySelector('.showNumbers');
+    fireEvent.click(screen.getByText('3'));
+    fireEvent.click(screen.getByText('+'));
+    fireEvent.click(screen.getByText('4'));
+    fireEvent.click(screen.getByText('='));
+    expect(result.textContent).toBe('7');
+  });
+});
