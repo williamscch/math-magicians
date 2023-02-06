@@ -10,6 +10,8 @@
 
 [Calculator Link... Check it out!!!](https://williamscchmathmagicians.netlify.app/)
 
+## Quick view
+> ![](./app-ss.png)
 
 ## Getting Started
 
